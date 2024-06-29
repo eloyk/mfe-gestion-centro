@@ -1,0 +1,1 @@
+export const baseUrl = process.env.BASE_URL || "https://qx4dsf1m-3000.use2.devtunnels.ms/api"

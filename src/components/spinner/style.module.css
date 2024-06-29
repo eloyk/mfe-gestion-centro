@@ -1,0 +1,24 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinner {
+  border: 4px #007bff solid;
+  border-radius: 100%;
+  border-top: 4px solid rgba(255, 255, 255, 0.3);
+  width: 25px;
+  height: 25px;
+  animation: spin .75s linear infinite;
+}
+
+/* Animación de rotación */
+@keyframes spin {
+  0% { 
+    transform: rotate(0deg); 
+  }
+  100% { 
+    transform: rotate(360deg); 
+  }
+}

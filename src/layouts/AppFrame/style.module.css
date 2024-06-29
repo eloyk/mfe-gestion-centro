@@ -1,0 +1,9 @@
+.container {
+  width: 100%;
+}
+.contentContainer {
+}
+.content {
+  padding: 24px;
+  padding-top: calc(70px + 15px);
+}
